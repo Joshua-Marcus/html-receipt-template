@@ -1,0 +1,91 @@
+<link
+  href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+  rel="stylesheet"
+  id="bootstrap-css"
+/>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
+  rel="stylesheet"
+/>
+<title>HTML Receipt Template</title>
+
+<!------ Include the above in your HEAD tag ---------->
+
+<!--Author      : @arboshiki-->
+<div id="invoice">
+  <div class="invoice overflow-auto">
+    <div style="min-width: 600px;">
+      <header>
+        <div class="row">
+          <div class="col">
+            <a target="_blank" href="https://lobianijs.com">
+              <img
+              width="20%"
+                src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo1.png"
+                data-holder-rendered="true"
+              />
+            </a>
+          </div>
+          <div class="col company-details">
+            <h2 class="name">
+                Placeholder PTY LTD
+             
+            </h2>
+            <div>123 Fake Street</div>
+            <div>contact@placeholder.com.au</div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="row contacts">
+          <div class="col invoice-to">
+            <div class="text-gray-light">Receipt To:</div>
+            <h2 class="to">Joshua Marcus</h2>
+            <div class="email">
+              <a href="mailto:josh@example.com.au">josh@example.com.au</a>
+            </div>
+          </div>
+          <div class="col invoice-details">
+            <h1 class="invoice-id">Receipt: 0001</h1>
+            <div class="date">Date of Invoice: 14/05/2020</div>
+          </div>
+        </div>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th class="text-left">DESCRIPTION</th>
+              <th class="text-right">TOTAL</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="no">01</td>
+              <td class="text-left">
+                <h3>Venue Booking</h3>
+                    Move In or Out
+              </td>
+              <td class="total">$300.00</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="1"></td>
+              <td colspan="1">GRAND TOTAL</td>
+              <td>$300.00</td>
+            </tr>
+          </tfoot>
+        </table>
+      </main>
+      <footer>
+       This receipt was automatically generated.
+      </footer>
+    </div>
+    <!--DO NOT DELETE THIS div. IT is responsible for showing footer always at the bottom-->
+    <div></div>
+  </div>
+</div>

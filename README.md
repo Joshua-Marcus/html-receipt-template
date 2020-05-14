@@ -1,0 +1,1 @@
+# html-receipt-template
